@@ -29,5 +29,8 @@ jobs:
       with:
         name: hello-artifact
 
+    - name: List files in the current directory
+      run: ls -la
+
     - name: Display content of the downloaded file
       run: cat ./artifacts/hello.txt
